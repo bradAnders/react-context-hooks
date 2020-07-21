@@ -5,7 +5,6 @@ class Navbar extends Component {
   render() {
     return (
       <ThemeContext.Consumer>{({ isLightTheme, light, dark }) => {
-        {/* const  = context; */}
         const theme = isLightTheme ? light : dark;
         return (
           <nav style={ { background: theme.ui, color: theme.syntax } }>
