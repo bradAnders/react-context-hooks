@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class BookList extends Component {
   render() { 
-    return ( 
+    return (
       <div className="book-list">
         <ul>
           <li>the way of kings</li>
