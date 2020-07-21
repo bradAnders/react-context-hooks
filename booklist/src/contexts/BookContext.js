@@ -12,6 +12,7 @@ const BookContextProvider = props => {
     setBooks([...books, { title, author, id: uuid() }]);
   };
   const removeBook = (id) => {
+    console.log('removing book', id);
     setBooks(books.filter(book => book.id !== id));
   };
   return (
